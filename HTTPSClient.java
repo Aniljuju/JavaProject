@@ -38,7 +38,7 @@ public class HTTPSClient {
             out.close();
             socket.close();
         } catch (IOException e) {
-            System.err.println("Error: " + e.getMessage());
+            System.err.println("Error Message: " + e.getMessage());
         }
     }
 }
